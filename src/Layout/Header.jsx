@@ -29,16 +29,21 @@ const Header = () => {
                     <li className='cursor-pointer hover:border-b-gren hover:border-b-[1px] hover:text-gren '>{t("Contact")}</li>
                 </ul>
 
-                <div className='flex flex-row items-center gap-[5px] sm:gap-[20px]'>
+                <div className='flex flex-row items-center gap-[5px] sm:gap-[10px] '>
                     {/* <button onClick={toggleTheme} className='sm:flex hidden duration-500'>
                         <img src={theme == "light" ? '/public/moon.png' : '/public/sun.png'} alt="" width={25} />
                     </button> */}
-                    <ThemeToggle />
 
+                    <div className='sm:flex hidden '>
+                        <ThemeToggle />
+
+                    </div>
                     <PhoneAnimation />
                     {/* <LanguageSwitcher /> */}
+                    <div className='md:flex hidden '>
                     <MenuDefault />
-                    <a href="tel:998955555539"><Button /></a>
+                    </div>
+                    <a className='ml-3' href="tel:998955555539"><Button /></a>
                     <DrawerDefault />
                 </div>
             </div>

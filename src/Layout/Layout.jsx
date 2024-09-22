@@ -5,7 +5,7 @@ import Footer from './Footer'
 const Layout = ({ children }) => {
     return (
         <>
-        <div className='bg-oq dark:bg-dakr text-qora dark:text-oq duration-300'>
+        <div className='bg-oq dark:bg-dakr text-qora dark:text-oq '>
             <Header />
 
             {children}

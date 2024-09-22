@@ -38,12 +38,12 @@ export function MenuDefault() {
 
     return (
         <Menu className="relative">
-            <MenuHandler className="bg-transparent w-auto h-auto   rounded-full m-0 p-0 ">
+            <MenuHandler className="bg-transparent w-auto h-auto  m-0 p-0 ">
                 <Button
-                    className="relative p-0  pr-3 rounded-full  shadow-none border-none bg-transparent flex items-center justify-center"
+                    className="relative p-0 rounded-full shadow-none border-none bg-transparent flex items-center justify-center"
                 >
                     <img
-                        className="w-[30px] h-[30px]  rounded-full object-cover"
+                        className="w-[30px] h-[30px] rounded-full object-cover"
                         src={getLanguageImage()}
                         alt="Language Menu"
                     />

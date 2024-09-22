@@ -32,7 +32,7 @@ const ThemeToggle = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="bg-[url('public/moon.png')]  duration-500 h-6 w-6 dark:bg-[url('public/sun2.svg')] bg-no-repeat bg-contain bg-center text-gray-800 dark:text-gray-200  rounded-lg"
+      className="bg-[url('public/moon.png')]  mt-1 mr-2  duration-500 h-6 w-6 dark:bg-[url('public/sun2.svg')] bg-no-repeat bg-contain bg-center text-gray-800 dark:text-gray-200  rounded-lg"
     >
       {theme === "dark" ? "" : ""}
     </button>

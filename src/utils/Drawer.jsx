@@ -8,6 +8,7 @@ import {
 import useStore from "./zustand";
 import { useTranslation } from "react-i18next";
 import SecondSwitcher from "./SecondSwitcher";
+import ThemeToggle from "../LAYOUT/ThemeToggle";
 
 export function DrawerDefault() {
     const [open, setOpen] = React.useState(false);
@@ -20,7 +21,7 @@ export function DrawerDefault() {
 
 
     return (
-        <React.Fragment>
+        <React.Fragment >
             <button onClick={openDrawer} className='lg:hidden flex'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#009494" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
             </button>
@@ -66,12 +67,10 @@ export function DrawerDefault() {
                     </div>
                 </div>
 
-                <div className="w-full flex flex-row items-center justify-between p-4 mt-[40px] border-2 border-gren rounded-xl">
+                <div className="w-full flex flex-row items-center justify-evenly p-4 mt-[40px] border-2 border-gren rounded-xl">
                     <div className="flex flex-row items-center gap-[10px]">
-                        <span className="text-qora dark:text-oq">Dark Mode</span>
-                        <button onClick={toggleTheme}>
-                            <img src={theme == "light" ? '/public/moon.png' : '/public/sun.png'} alt="" width={25} />
-                        </button>
+                        <span className="text-qora dark:text-oq"></span>
+                        <ThemeToggle/>
                     </div>
 
                     <div>

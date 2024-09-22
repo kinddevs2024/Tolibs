@@ -1,5 +1,5 @@
 import React from 'react'
-import Headerk from './Headerk'
+import Headerk from '../../Headerk'
 
 const Kursi = () => {
   return (

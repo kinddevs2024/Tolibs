@@ -2,7 +2,7 @@ import React from 'react'
 import Resume from '../Resume'
 import Hero from '../Hero'
 import Global from '../Global'
-import Kursi from '../Kursi/Kursi'
+import Kursi from './Kursi/Kursi'
 
 const Home = () => {
   return (

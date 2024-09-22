@@ -21,30 +21,27 @@ import encontact from "./en/contact";
 
 
 
-
 const resources = {
     en: {
         layout: enLayout,
         hero: enHero,
         resumcrd: enResumcrd,
         global: enGlobal,
-        contact : encontact ,
-
+        contact: encontact,
     },
     ru: {
         layout: ruLayout,
         hero: ruHero,
         resumcrd: ruResumcrd,
         global: ruGlobal,
-        contact : rucontact ,
-
+        contact: rucontact,
     },
     uz: {
         layout: uzLayout,
         hero: uzHero,
         resumcrd: uzResumcrd,
         global: uzGlobal,
-        contact : uzcontact ,
+        contact: uzcontact,
     },
 };
 
