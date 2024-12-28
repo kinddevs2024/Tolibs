@@ -9,11 +9,11 @@ const Hero = () => {
             <div className='container  flex lg:flex-row  flex-col items-center justify-between'>
                 <div className='flex flex-col lg:items-start items-center lg:text-start text-center gap-[30px]'>
                     <h1 className='text-qora dark:text-oq sm:text-6xl text-3xl font-bold'>{t("English")}</h1>
-                    <span className='sm:text-xl text-lg text-gray-700'>{t("Teach")}</span>
+                    <span className='sm:text-xl text-lg text-gray-700 '>{t("Teach")}</span>
                     <Btn text={t("Button")} />
                 </div>
 
-                <img src="https://my9-learning-center.vercel.app/hero_img.svg" alt="" className='lg:w-[50%] w-[100%]'/>
+                <img src="public/Education-cuate.svg" alt="" className='lg:w-[50%] w-[100%]'/>
             </div>
         </section>
     )

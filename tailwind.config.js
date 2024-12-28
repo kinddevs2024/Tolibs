@@ -23,10 +23,11 @@ export default withMT({
     },
     extend: {
       colors: {
-        oq: '#FFFFFF',
-        gren: "#009494",
-        qora: "#000000",
-        dakr: "#17252a",
+        oq: '#ffffff',
+        gren: "#ff9e16",
+        qora: "#090a07",
+        dakr: "#090a07",
+        ornage: "#de9f00",
       }
     },
   },
