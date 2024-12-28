@@ -7,7 +7,7 @@ import {
 import useStore from "./zustand";
 import { useTranslation } from "react-i18next";
 import SecondSwitcher from "./SecondSwitcher";
-import ThemeToggle from "../LAYOUT/ThemeToggle";
+import ThemeToggle from "../Layout/ThemeToggle.jsx";
 import Button from "../Button";
 
 export function DrawerDefault() {
