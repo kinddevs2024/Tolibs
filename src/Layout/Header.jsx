@@ -6,8 +6,8 @@ import useStore from '../utils/zustand';
 import PhoneAnimation from '../utils/PhoneAnimation';
 import { DrawerDefault } from '../utils/Drawer';
 import { MenuDefault } from '../utils/Switcherbtn';
-import ThemeToggle from '../Layout/ThemeToggle';
-import Logo from '../pages/logo';
+import ThemeToggle from '../Layout/ThemeToggle.jsx';
+import Logo from '../pages/Logo.jsx';
 
 
 
