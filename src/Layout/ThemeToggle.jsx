@@ -20,12 +20,12 @@ const ThemeToggle = () => {
   const toggleTheme = () => {
     if (theme === "dark") {
       document.documentElement.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-      setTheme("light");
-    } else {
-      document.documentElement.classList.add("dark");
       localStorage.setItem("theme", "dark");
       setTheme("dark");
+    } else {
+      document.documentElement.classList.add("light");
+      localStorage.setItem("theme", "light");
+      setTheme("light");
     }
   };
 
