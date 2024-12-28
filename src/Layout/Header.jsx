@@ -19,7 +19,7 @@ const Header = () => {
         <header className='bg-oq  dark:bg-dakr py-[20px] font-exo sticky top-0 border-b-2 border-b-gren dark:shadow-oq z-20'>
             <div className='px-[20px] sm:container  flex flex-row items-center justify-between'>
                 <div>
-                    <Logo/>
+                    <Logo />
                 </div>
 
                 <ul className='lg:flex hidden flex-row items-center gap-[30px] text-lg dark:text-oq  text-qora'>
@@ -34,16 +34,16 @@ const Header = () => {
                         <img src={theme == "light" ? '/public/moon.png' : '/public/sun.png'} alt="" width={25} />
                     </button> */}
 
-                    <div className='sm:flex hidden '>
+                    <div className='lg:flex hidden '>
                         <ThemeToggle />
 
                     </div>
                     <PhoneAnimation />
                     {/* <LanguageSwitcher /> */}
                     <div className='md:flex hidden '>
-                    <MenuDefault />
+                        <MenuDefault />
                     </div>
-                    <a className='ml-3' href="tel:998955555539"><Button /></a>
+                    <a className='ml-3' href="tel:998900202299"><Button /></a>
                     <DrawerDefault />
                 </div>
             </div>
