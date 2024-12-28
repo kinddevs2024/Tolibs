@@ -45,7 +45,7 @@ const Global = () => {
                         ))}
                     </div>
                     <div className='border-4  border-white rounded-lg shadow-lg shadow-green'>
-                        <img className='w-[300px] border-4 border-amber-400 rounded-lg' src="public/Business.png" alt="Mamura Yuldasheva" />
+                        <img className='w-[300px] border-4 border-amber-400 rounded-lg' src="https://raw.githubusercontent.com/kinddevs2024/Tolibs/refs/heads/main/public/Business.png" alt="Mamura Yuldasheva" />
                     </div>
                     <div className='flex flex-col gap-5 sm:gap-[100px] w-[350px]'>
                         {globalright.map(({ h2, p2 }, index) => (
