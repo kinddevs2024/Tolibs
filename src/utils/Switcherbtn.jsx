@@ -37,7 +37,7 @@ export function MenuDefault() {
     };
 
     return (
-        <Menu className="relative">
+        <Menu className="relative pr-10">
             <MenuHandler className="bg-transparent w-auto h-auto   rounded-full m-0 p-0 ">
                 <Button
                     className="relative p-0  pr-3 rounded-full  shadow-none border-none bg-transparent flex items-center justify-center"
