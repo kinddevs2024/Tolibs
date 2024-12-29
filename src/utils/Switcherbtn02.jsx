@@ -36,7 +36,7 @@ export function MenuDefault02() {
             >
                 <img
                     className="w-[30px] h-[30px] rounded-full object-cover"
-                    src="./public/eng.png"
+                    src={img3}
                     alt="English"
                 />
 

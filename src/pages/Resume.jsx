@@ -33,7 +33,7 @@ const CountUpWrapper = ({ end, h1, span }) => {
     }, [end]);
 
     return (
-        <div data-aos="fade-up" className='text-center flex flex-col justify-center gap-3 w-[300px] border-t-2 border-gren p-4 rounded-2xl hover:shadow-lg hover:shadow-gren duration-200 cursor-pointer dark:bg-dark dark:text-oq'>
+        <div data-aos="fade-up"  className='text-center rrr  hover:duration-300 flex flex-col justify-center gap-3 w-[300px] border-t-2 border-gren p-4 rounded-2xl hover:shadow-lg hover:shadow-gren duration-200 cursor-pointer dark:bg-dark dark:text-oq'>
             <h1  className='text-4xl md:text-6xl font-bold' ref={countUpRef}></h1>
             <span className='text-[20px]'>{span}</span>
         </div>

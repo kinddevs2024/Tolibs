@@ -2,9 +2,9 @@ import React from 'react'
 
 const Btn = ({ text }) => {
     return (
-        <div>
+        <div data-aos="fade-up" >
             <button
-                className="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-gren rounded-md group"
+                className="relative flex items-center px-6 py-3 mb-10 overflow-hidden font-medium transition-all bg-gren rounded-md group"
             >
                 <span
                     className="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-ornage rounded group-hover:-mr-4 group-hover:-mt-4"

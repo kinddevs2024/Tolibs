@@ -9,11 +9,11 @@ const ThemeToggle = () => {
       (!("theme" in localStorage) &&
         window.matchMedia("(prefers-color-scheme: dark)").matches)
     ) {
-      document.documentElement.classList.add("light");
-      setTheme("light");
+      document.documentElement.classList.add("dark");
+      setTheme("dark");
     } else {
       document.documentElement.classList.remove("dark");
-      setTheme("dark");
+      setTheme("light");
     }
   }, []);
 
@@ -28,6 +28,7 @@ const ThemeToggle = () => {
       setTheme("dark");
     }
   };
+
 
   return (
     <button
