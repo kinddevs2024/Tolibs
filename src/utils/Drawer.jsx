@@ -50,22 +50,26 @@ export function DrawerDefault() {
                 </div>
                 <div className="flex flex-col items-center gap-[10px]">
                     <div className="border-2 border-gren p-3 w-full rounded-xl flex flex-row items-center gap-[10px]">
-                        <img src="https://www.svgrepo.com/show/493523/teacher-male.svg" alt="" width={20} />
+                        {/* <img src="https://www.svgrepo.com/show/493523/teacher-male.svg" alt="" width={20} /> */}
+                        <img width="25" src="https://www.svgrepo.com/show/493523/teacher-male.svg" alt="Teachers"/>
                         <span className="text-qora dark:text-oq">{t("Teacher")}</span>
                     </div>
 
                     <div className="border-2 border-gren p-3 w-full rounded-xl flex flex-row items-center gap-[10px]">
-                        <img src="https://www.svgrepo.com/show/382165/book-shelf-books-education-learning-school-study.svg" alt="" width={20} />
+                        {/* <img src="https://www.svgrepo.com/show/382165/book-shelf-books-education-learning-school-study.svg" alt="" width={20} /> */}
+                        <img width="25" src="https://www.svgrepo.com/show/382165/book-shelf-books-education-learning-school-study.svg" alt="Courses"/>
                         <span className="text-qora dark:text-oq">{t("Courses")}</span>
                     </div>
 
                     <div className="border-2 border-gren p-3 w-full rounded-xl flex flex-row items-center gap-[10px]">
-                        <img src="https://www.svgrepo.com/show/324120/graduation-education-cap-mortarboard-graduate.svg" alt="" width={20} />
+                        {/* <img src="https://www.svgrepo.com/show/324120/graduation-education-cap-mortarboard-graduate.svg" alt="" width={20} /> */}
+                        <img width="25" src="https://www.svgrepo.com/show/324120/graduation-education-cap-mortarboard-graduate.svg" alt="Results"/>
                         <span className="text-qora dark:text-oq">{t("Result")}</span>
                     </div>
 
                     <div className="border-2 border-gren p-3 w-full rounded-xl flex flex-row items-center gap-[10px]">
-                        <img src="https://www.svgrepo.com/show/67982/telephone.svg" alt="" width={20} />
+                        <img width="25" src="https://raw.githubusercontent.com/kinddevs2024/Tolibs/refs/heads/main/public/contact.png" alt="contact" />
+                        {/* <img src="https://www.svgrepo.com/show/67982/telephone.svg" alt="" width={20} /> */}
                         <span className="text-qora dark:text-oq">{t("Contact")}</span>
                     </div>
                 </div>
