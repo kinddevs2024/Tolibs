@@ -81,7 +81,6 @@ export function MenuDefault() {
                         src={img1}
                         alt="Uzbekistan"
                     />
-                    Uzbekistan
                 </MenuItem>
             </MenuList>
         </Menu>

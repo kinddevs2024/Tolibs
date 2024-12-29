@@ -15,8 +15,9 @@ const Header = () => {
     const { theme, toggleTheme } = useStore()
     const { t } = useTranslation("layout");
 
+
     return (
-        <header className='bg-oq  dark:bg-dakr py-[20px] font-exo sticky top-0 border-b-2 border-b-gren dark:shadow-oq z-20'>
+        <header  className='bg-oq  dark:bg-dakr py-[20px] font-exo sticky top-0 border-b-2 border-b-gren dark:shadow-oq z-20'>
             <div className='px-[20px] sm:container  flex flex-row items-center justify-between'>
                 <div>
                     <Logo />
@@ -29,7 +30,7 @@ const Header = () => {
                     <li className='cursor-pointer hover:border-b-gren hover:border-b-[1px] hover:text-gren '>{t("Contact")}</li>
                 </ul>
 
-                <div className='flex flex-row items-center gap-[5px] sm:gap-[10px] '>
+                <div className='flex flex-row items-center justify-center gap-[5px] sm:gap-[10px] '>
                     {/* <button onClick={toggleTheme} className='sm:flex hidden duration-500'>
                         <img src={theme == "light" ? '/public/moon.png' : '/public/sun.png'} alt="" width={25} />
                     </button> */}
@@ -43,8 +44,12 @@ const Header = () => {
                     <div className='md:flex hidden '>
                         <MenuDefault />
                     </div>
-                    <a className='ml-3' href="tel:998900202299"><Button /></a>
-                    <DrawerDefault />
+                    <a className='' href="tel:998900202299"><Button /></a>
+                    <div className='lg:hidden flex items-center gap-2'>
+                            <DrawerDefault />                
+
+                    </div>
+
                 </div>
             </div>
         </header>

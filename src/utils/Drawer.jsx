@@ -10,6 +10,7 @@ import SecondSwitcher from "./SecondSwitcher";
 import ThemeToggle from "../Layout/ThemeToggle.jsx";
 import Button from "../Button";
 import Logo from "../pages/Logo.jsx";
+import SecondSwitcher02 from "./SecondSwitcher02.jsx";
 
 export function DrawerDefault() {
     const [open, setOpen] = React.useState(false);
@@ -69,16 +70,13 @@ export function DrawerDefault() {
                     </div>
                 </div>
 
-                <div className="w-full flex flex-row items-center justify-evenly p-4 mt-[40px] border-2 border-gren rounded-xl">
-                    <div className="flex flex-row items-center gap-[10px]">
-                        <span className="text-qora dark:text-oq"></span>
-                        <ThemeToggle/>
+                <div className="w-full flex   gap-[10px]   items-center ">
+                    <div className="p-4 mt-[10px] border-2 border-gren rounded-xl">
+                        <ThemeToggle />
                     </div>
-
-                    <div>
-                        <SecondSwitcher />
+                    <div className="p-5 mt-[10px] border-2 border-gren rounded-xl">
+                    <SecondSwitcher02 />
                     </div>
-
                 </div>
                 <a className='ml-3' href="tel:998900202299"><Button /></a>
             </Drawer>

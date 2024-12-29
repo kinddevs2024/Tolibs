@@ -1,4 +1,3 @@
-
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import enLayout from "./en/layout";
@@ -16,10 +15,6 @@ import uzGlobal from "./uz/global";
 import uzcontact from "./uz/contact";
 import rucontact from "./ru/contact";
 import encontact from "./en/contact";
-
-
-
-
 
 const resources = {
     en: {
@@ -49,7 +44,7 @@ i18n
     .use(initReactI18next)
     .init({
         resources,
-        lng: "en",
+        lng: localStorage.getItem("language") || "en",
         interpolation: {
             escapeValue: false,
         },

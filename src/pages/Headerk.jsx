@@ -7,8 +7,8 @@ const Headerk = () => {
 
   return (
     <div className=' container text-center  bg-transparent'>
-      <h1 className='text-5xl '>{t("kontatk")}</h1>
-      <h1>{t("kontatk2")}</h1>
+      <h1 data-aos="fade-up" className='text-5xl '>{t("kontatk")}</h1>
+      <h1 data-aos="fade-up">{t("kontatk2")}</h1>
 
     </div>
   )
