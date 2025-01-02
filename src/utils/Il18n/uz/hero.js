@@ -1,7 +1,8 @@
 const hero = {
-    English: "Birinchi xonim Niner Ma’mura Yo‘ldosheva tomonidan ingliz tili va IELTS o‘quv markazi",
-    Teach: "Biz nafaqat ingliz tilini o'rgatamiz, balki yangi ufqlarni ochamiz!",
-    Button: "Birinchi darsga yoziling",
+    English: "Bizning “General English booster” kursimizda ",
+    English2: " IELTS va CEFR ga kuchli asos oling. ",
+    Teach: "Darslar IELTS dan 8 olgan Teacher Tolib tomonidan o’tiladi.",
+    Button: "Demo lesson uchun ro’yxatdan o’ting",
 }
 
 

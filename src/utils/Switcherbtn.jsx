@@ -60,6 +60,7 @@ export function MenuDefault() {
                         alt="English"
                     />
                     English
+                    {/* <p className='text-[10px]'>demo version</p> */}
                 </MenuItem>
                 <MenuItem
                     className="flex flex-row items-center gap-2"

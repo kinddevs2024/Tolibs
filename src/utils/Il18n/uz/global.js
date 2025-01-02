@@ -1,6 +1,6 @@
 const global = {
-    h1: "Bizni nima o'zgacha qilishini ko'ring",
-    span: "MY9 oʻquv markazida biz ingliz tili va IELTS boʻyicha shaxsiy taʼlimga ixtisoslashganmiz. Mutaxassis o‘qituvchilarimiz va innovatsion uslublarimiz o‘quvchilarning to‘liq salohiyatini ro‘yobga chiqarishi va maqsadlariga erishishini ta’minlaydi.",
+    h1: "Kursimiz afzalliklari",
+    span: "Bizning online kurslarimiz eskirgan o’qitish tizimidan chetlashib, zamonaviy pedagoglar tomonidan ishlangan darsliklar va interaktiv grammatika testlari asosida sizga ingiliz tilini o’rgatadi.",
     d1parag1: "Bepul ikkinchi o'qituvchi",
     d1parag2: "Yordam kerakmi? O'qituvchi yordamchilari sizni har qanday savol bilan qo'llab-quvvatlashga tayyor.",
     d2parag1: "Tajribali o'qituvchilar",

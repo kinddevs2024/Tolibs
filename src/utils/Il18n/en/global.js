@@ -1,6 +1,6 @@
 const global = {
-    h1: "See what makes us exceptional",
-    span: "At MY9 Learning Center, we specialize in personalized English and IELTS education. Our expert teachers and innovative methods ensure students reach their full potential and achieve their goals.",
+    h1: "Advantages of our course",
+    span: "Our online courses move away from outdated teaching methods and teach you English using textbooks and interactive grammar tests developed by modern educators.",
     d1parag1: "Free second teacher",
     d1parag2: "Need help? Assistant teachers are here to support you with any questions.",
     d2parag1: "Experienced teachers",

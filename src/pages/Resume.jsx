@@ -6,14 +6,14 @@ const Resume = () => {
     const { t } = useTranslation("resumcrd");
 
     const resume = [
-        { h1: t("5+"), span: t("span1"), end: 5 },
-        { h1: t("300+"), span: t("span2"), end: 300 },
-        { h1: t("15+"), span: t("span3"), end: 15 }
+        { h1: t("4+"), span: t("span1"), end: 4 },
+        { h1: t("500+"), span: t("span2"), end: 500 },
+        { h1: t("10+"), span: t("span3"), end: 10 }
     ];
 
     return (
-        <section className=' py-5 sm:py-10'>
-            <div className='container flex justify-center xl:justify-between items-center flex-wrap gap-4'>
+        <section className=' duration-300 py-5 sm:py-10'>
+            <div className=' duration-300  container flex justify-center xl:justify-between items-center flex-wrap gap-4'>
                 {resume.map(({ h1, span, end }, index) => (
                     <CountUpWrapper key={index} end={end} h1={h1} span={span} />
                 ))}
@@ -22,7 +22,7 @@ const Resume = () => {
     );
 };
 
-const CountUpWrapper = ({ end, h1, span }) => {
+const CountUpWrapper = ({ end, span }) => {
     const countUpRef = useRef(null);
 
     useEffect(() => {
@@ -33,7 +33,9 @@ const CountUpWrapper = ({ end, h1, span }) => {
     }, [end]);
 
     return (
-        <div data-aos="fade-up"  className='text-center rrr  hover:duration-300 flex flex-col justify-center gap-3 w-[300px] border-t-2 border-gren p-4 rounded-2xl hover:shadow-lg hover:shadow-gren duration-200 cursor-pointer dark:bg-dark dark:text-oq'>
+        <div data-aos="fade-up" 
+        className='text-center duration-300 flex flex-col justify-center gap-3 w-[300px] border-t-2 border-gren p-4 rounded-2xl 
+        hover:shadow-lg sm:shadow-none shadow-lg sm:shadow-transparent shadow-gren hover:shadow-gren   cursor-pointer dark:bg-dark dark:text-oq'>
             <h1  className='text-4xl md:text-6xl font-bold' ref={countUpRef}></h1>
             <span className='text-[20px]'>{span}</span>
         </div>

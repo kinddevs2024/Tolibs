@@ -33,3 +33,7 @@ transition-duration: 300ms;
     -ms-overflow-style:initial;
     /* Internet Explorer and Edge */
 }
+
+.animate-text {
+    animation: text 3s ease infinite;
+}

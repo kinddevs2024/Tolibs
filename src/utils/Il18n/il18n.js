@@ -15,6 +15,9 @@ import uzGlobal from "./uz/global";
 import uzcontact from "./uz/contact";
 import rucontact from "./ru/contact";
 import encontact from "./en/contact";
+import uzkursi from "./uz/kursi";
+import rukursi from "./ru/kursi";
+import enkursi from "./en/kursi";
 
 const resources = {
     en: {
@@ -23,6 +26,7 @@ const resources = {
         resumcrd: enResumcrd,
         global: enGlobal,
         contact: encontact,
+        kursi: enkursi,
     },
     ru: {
         layout: ruLayout,
@@ -30,6 +34,7 @@ const resources = {
         resumcrd: ruResumcrd,
         global: ruGlobal,
         contact: rucontact,
+        kursi: rukursi,
     },
     uz: {
         layout: uzLayout,
@@ -37,6 +42,7 @@ const resources = {
         resumcrd: uzResumcrd,
         global: uzGlobal,
         contact: uzcontact,
+        kursi: uzkursi,
     },
 };
 
@@ -44,7 +50,7 @@ i18n
     .use(initReactI18next)
     .init({
         resources,
-        lng: localStorage.getItem("language") || "en",
+        lng: localStorage.getItem("language") || "uz",
         interpolation: {
             escapeValue: false,
         },
