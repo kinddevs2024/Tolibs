@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 
 const ThemeToggle = () => {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
 
   useEffect(() => {
     if (
       localStorage.getItem("theme") === "dark" ||
       (!("theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
+        window.matchMedia("(prefers-color-scheme: light)").matches)
     ) {
       document.documentElement.classList.add("dark");
       setTheme("dark");

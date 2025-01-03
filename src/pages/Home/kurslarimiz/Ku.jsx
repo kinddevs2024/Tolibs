@@ -19,27 +19,27 @@ const Ku = () => {
 
                 <ul className="flex flex-col items-start gap-2">
                     <li className="flex flex-row items-start gap-2">
-                        <img width="30" src="public/read.png" alt="checked-icon" />
+                        <img width="30" src="https://raw.githubusercontent.com/kinddevs2024/Tolibs/refs/heads/main/public/read.png" alt="checked-icon" />
                         <p className="text-sm opacity-90">{t("one")}</p>
                     </li>
                     <li className="flex flex-row items-start gap-2">
-                        <img width="30" src="public/read.png" alt="checked-icon" />
+                        <img width="30" src="https://raw.githubusercontent.com/kinddevs2024/Tolibs/refs/heads/main/public/read.png" alt="checked-icon" />
                         <p className="text-sm opacity-90">{t("twhu")}</p>
                     </li>
                     <li className="flex flex-row items-start gap-2">
-                        <img width="30" src="public/read.png" alt="checked-icon" />
+                        <img width="30" src="https://raw.githubusercontent.com/kinddevs2024/Tolibs/refs/heads/main/public/read.png" alt="checked-icon" />
                         <p className="text-sm opacity-90">{t("there")}</p>
                     </li>
                     <li className="flex m-2 ml-0 flex-row items-start gap-2">
-                        <img width="30" src="public/flame.png" alt="checked-icon" />
+                        <img width="30" src="https://raw.githubusercontent.com/kinddevs2024/Tolibs/refs/heads/main/public/flame.png" alt="checked-icon" />
                         <p className="text-sm opacity-90">{t("natija")}</p>
                     </li>
                     <li className="flex m-2 mt-0 ml-0 flex-row items-start gap-2">
-                        <img width="30" src="public/calendar-clock.png" alt="checked-icon" />
+                        <img width="30" src="https://raw.githubusercontent.com/kinddevs2024/Tolibs/refs/heads/main/public/calendar-clock.png" alt="checked-icon" />
                         <p className="text-sm opacity-90">{t("data")}</p>
                     </li>
                     <li className="flex m-2 mt-0 ml-0 mb-11 flex-row items-start gap-2">
-                        <img width="30" src="public/tags.png" alt="checked-icon" />
+                        <img width="30" src="https://raw.githubusercontent.com/kinddevs2024/Tolibs/refs/heads/main/public/tags.png" alt="checked-icon" />
                         <p className="text-sm opacity-90">{t("prise")} <div className='flex justify-end items-end text-justify'><s className='mr-2 mt-1 mb-3'> <p className='text-[12px]'>350.000 UZS</p></s> 289.000 UZS</div></p>
                     </li>
                 </ul>
