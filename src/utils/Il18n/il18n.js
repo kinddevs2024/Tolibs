@@ -18,6 +18,13 @@ import encontact from "./en/contact";
 import uzkursi from "./uz/kursi";
 import rukursi from "./ru/kursi";
 import enkursi from "./en/kursi";
+import uzsavollar from "./uz/savollar";
+import rusavollar from "./ru/savollar";
+import ensavollar from "./en/savollar";
+import enfooter from "./en/footer";
+import rufooter from "./ru/footer";
+import uzfooter from "./uz/footer";
+
 
 const resources = {
     en: {
@@ -27,6 +34,9 @@ const resources = {
         global: enGlobal,
         contact: encontact,
         kursi: enkursi,
+        savollar: ensavollar,
+        footer: enfooter,
+
     },
     ru: {
         layout: ruLayout,
@@ -35,6 +45,10 @@ const resources = {
         global: ruGlobal,
         contact: rucontact,
         kursi: rukursi,
+        savollar: rusavollar ,
+        footer: rufooter,
+
+
     },
     uz: {
         layout: uzLayout,
@@ -43,6 +57,9 @@ const resources = {
         global: uzGlobal,
         contact: uzcontact,
         kursi: uzkursi,
+        savollar: uzsavollar,
+        footer: uzfooter,
+
     },
 };
 

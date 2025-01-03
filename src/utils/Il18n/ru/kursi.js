@@ -1,26 +1,39 @@
 
 const kursi = {
     title: "General English Booster",
-    infooftit: "kurs A1/A2 darajadagilar (beginner/elementary)",
-    one: "Ingiliz tili o’rganishni endi boshlaganlar (beginner)",
-    twhu: "Lug’at boyligi juda pas bo’lganlar",
-    there: "Umuman olganda A1/A2 darajaga chiqishni istaganlar",
-    natija: "Kurs yakunida Eronlik Guest speaker sizlarga speakingdan dars o’tadi",
-    data: "Kurs Yanvar oyini birinchi 10 kunligida boshlanib, 1 oy davom etadi ",
-    prise: "Kurs narxi:",
-    // get: "Birinchi darsga yoziling",
-
-
-
-    title2: "General English Booster",
-    infooftit2: "kursi B1 darajadagilar (pre intermediate/intermediate)",
-    one2: "Haftada 3 kun jonli dars (20:00) Har kuni video - darslar beriladi 15 kishilik Homework guruhga qo'shilasiz",
-    twhu2: "Uy ishi ustidan nazorat qilinadi Haftada 3 martta alohida mini guruhlarda(3 kishilik) Speaking qilinadi",
-    there2: "Support teacher 3 kun speakingdan dars o’tadi va uyga vazifa tekshiradi",
-    natija2: "Kurs yakunida Eronlik Guest speaker sizlarga speakingdan dars o’tadi",
-    data2: "Kurs Yanvar oyini birinchi 10 kunligida boshlanib, 1 oy davom etadi",
-    prise: "Kurs narxi:",
-    get: "kursga yozilish",
+    subtitle: "Курс для уровня B1 (Pre-Intermediate/Intermediate)",
+    whoIsItFor: "Для кого курс:",
+    whoIsItForPoints: [
+        "Для тех, кто набрал менее 47 баллов по CEFR",
+        "Для тех, кто испытывает трудности с курсами IELTS и CEFR из-за низкого уровня",
+        "Для тех, кто завершил Elementary",
+        "Для тех, кто получил B2 1-2 года назад, но забыл английский",
+        "Для тех, у кого большие трудности с Speaking и Writing",
+        "Для всех, кто хочет достичь уровня B1+/B2"
+    ],
+    whatWillYouLearn: "Чему вы научитесь:",
+    whatWillYouLearnPoints: [
+        "Грамматика и словарный запас",
+        "Говорение и письмо",
+        "Чтение и аудирование"
+    ],
+    courseStructure: "Структура курса:",
+    courseStructurePoints: [
+        "3 живых урока в неделю (20:00)",
+        "Ежедневно предоставляются видео-уроки",
+        "Присоединение к группе домашних заданий из 15 человек",
+        "Контроль выполнения домашних заданий",
+        "3 небольшие группы для Speaking (по 3 человека) в неделю",
+        "Преподаватель поддержки проводит 3 урока Speaking и проверяет домашние задания",
+        "Приглашенный спикер из Ирана проводит урок Speaking в конце курса"
+    ],
+    teacher: "Преподаватель:",
+    teacherName: "Толибжон (IELTS 8)",
+    courseDuration: "Длительность курса:",
+    courseDurationDetails: "Начинается в первые 10 дней января и длится 1 месяц",
+    coursePrice: "Стоимость курса:",
+    price: "289,000 UZS",
+    registerButton: "Зарегистрироваться"
 };
 
 export default kursi;

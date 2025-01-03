@@ -15,9 +15,10 @@ const Kurslarimiz = () => {
                         MY9dagi mavjud kurslar haqida ma'lumot oling va sizga eng mos keladiganini tanlang
                     </h4>
                 </div>
-                <div className='flex  flex-wrap flex-row items-center justify-center gap-10'>
+                <div className='flex mt-10 flex-wrap flex-row items-center justify-center gap-10'>
                     <Ku />
                     <Ku />
+
                 </div>
             </section>
         </div>

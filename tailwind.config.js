@@ -22,13 +22,13 @@ export default withMT({
       },
     },
     extend: {
-      colors: {
-        oq: '#ffffff',
-        gren: "#ff9e16",
-        qora: "#090a07",
-        dakr: "#090a07",
-        ornage: "#de9f00",
-      }
+        colors: {
+          oq: '#ffffff',
+          gren: "#ff9e16",
+          qora: "#090a07",
+          dakr: "#090a07",
+          ornage: "#de9f00",
+        }
     },
   },
   plugins: [],
