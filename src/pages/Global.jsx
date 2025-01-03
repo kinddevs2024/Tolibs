@@ -32,7 +32,7 @@ const Global = () => {
     ];
 
     return (
-        <section className=' py-10'>
+        <section id='teacher' className=' py-10'>
             <section className='container flex flex-col justify-center items-center gap-10'>
                 <div className='flex flex-col justify-center text-center items-center gap-2 '>
                     <h1 data-aos="fade-up" className='text-[30px] font-bold'>{t("h1")}</h1>
@@ -59,7 +59,7 @@ const Global = () => {
                                 <div className='w-[300px]'>
                                     <p data-aos="fade-up" className='text-[10px]'>{p2}</p>
                                 </div>
-                            </div>
+                            </div>  
                         ))}
                     </div>
                 </section>

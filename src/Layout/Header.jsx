@@ -8,6 +8,7 @@ import { DrawerDefault } from '../utils/Drawer';
 import { MenuDefault } from '../utils/Switcherbtn';
 import ThemeToggle from '../Layout/ThemeToggle.jsx';
 import Logo from '../pages/Logo.jsx';
+// import { Link, Element } from "react-scroll";
 
 
 
@@ -24,10 +25,10 @@ const Header = () => {
                 </div>
 
                 <ul className='lg:flex hidden flex-row items-center gap-[30px] text-lg dark:text-oq  text-qora'>
-                    <li className='cursor-pointer hover:border-b-gren hover:border-b-[1px] hover:text-gren '>{t("Teacher")}</li>
-                    <li className='cursor-pointer hover:border-b-gren hover:border-b-[1px] hover:text-gren '>{t("Courses")}</li>
-                    <li className='cursor-pointer hover:border-b-gren hover:border-b-[1px] hover:text-gren '>{t("Result")}</li>
-                    <li className='cursor-pointer hover:border-b-gren hover:border-b-[1px] hover:text-gren '>{t("Contact")}</li>
+                    <a href="#teacher"><li href=".header1" className='cursor-pointer hover:border-b-gren hover:border-b-[1px] hover:text-gren '>{t("Teacher")}</li></a>
+                    <a href="#teacher"><li href=".header1" className='cursor-pointer hover:border-b-gren hover:border-b-[1px] hover:text-gren '>{t("Courses")}</li></a>
+                    <a href="#teacher"><li href=".header1" className='cursor-pointer hover:border-b-gren hover:border-b-[1px] hover:text-gren '>{t("Result")}</li></a>
+                    <a href="#teacher"><li href=".header1" className='cursor-pointer hover:border-b-gren hover:border-b-[1px] hover:text-gren '>{t("Contact")}</li></a>
                 </ul>
 
                 <div className='flex flex-row items-center justify-center gap-[5px] sm:gap-[10px] '>
