@@ -1,40 +1,38 @@
 
 const kursi = {
-    title: "General English Booster",
-    subtitle: "B1 darajadagilar uchun kurs (Pre-Intermediate/Intermediate)",
-    whoIsItFor: "Kurs kimlar uchun:",
-    whoIsItForPoints: [
-        "CEFR dan 47 dan past olganlar",
-        "IELTS & CEFR kurslariga darajasi pastlik qilayotganlar",
-        "Elementary ni tugatganlar",
-        "1-2 yil avval B2 olib hozir Ingliz tili esidan chiqqanlar",
-        "Speaking va Writing da juda qiynaladiganlar",
-        "Umuman olganda B1+/B2 darajaga chiqishni istaganlar"
+    "title": "General English Booster kursi B1 daraja",
+    "subtitle": "Pre-Intermediate/Intermediate darajadagi o'quvchilar uchun",
+    "whoIsItFor": "Kimlar uchun?",
+    "whoIsItForPoints": [
+        "CEFR testidan 47 dan kam ball olganlar",
+        "IELTS va CEFR kurslarida darajasi past bo'lganlar",
+        "Elementary darajasini tugatganlar",
+        "1-2 yil oldin B2 olgan va hozir ingliz tilini unutganlar",
+        "Speaking va Writingda qiynalganlar",
+        "Umuman olganda B1+/B2 darajasiga chiqishni istaganlar"
     ],
-    whatWillYouLearn: "Kursda nimalar o'rgatiladi:",
-    whatWillYouLearnPoints: [
-        "Grammar & Vocabulary",
-        "Speaking & Writing",
-        "Reading & Listening"
+    "whatWillYouLearn": "Nimalar o'rgatiladi?",
+    "whatWillYouLearnPoints": [
+        "Grammatik va Lug'at boyligi",
+        "Speaking va Writing",
+        "Reading va Listening"
     ],
-    courseStructure: "Kurs tartibi:",
-    courseStructurePoints: [
-        "Haftada 3 kun jonli dars (20:00)",
-        "Har kuni video-darslar beriladi",
-        "15 kishilik Homework guruhga qo'shilasiz",
-        "Uy ishi ustidan nazorat qilinadi",
-        "Haftada 3 martta alohida mini guruhlarda (3 kishilik) Speaking qilinadi",
-        "Support teacher 3 kun speakingdan dars o’tadi va uyga vazifa tekshiradi",
-        "Eronlik Guest speaker yakunida speakingdan dars o’tadi"
+    "courseStructure": "Kurs strukturası",
+    "courseStructurePoints": [
+        "Haftada 3 jonli dars (20:00)",
+        "Har kuni video-darslar",
+        "15 kishilik Homework guruhi",
+        "Uy ishlari ustidan nazorat",
+        "Mini guruhlarda 3 kishidan Speaking mashg'ulotlari",
+        "Support teacher 3 kun davomida Speaking darslari o'tadi"
     ],
-    teacher: "O'qituvchi:",
-    teacherName: "Tolibjon (IELTS 8)",
-    courseDuration: "Kurs muddati:",
-    courseDurationDetails: "Yanvar oyining birinchi 10 kunligida boshlanib, 1 oy davom etadi",
-    coursePrice: "Kurs narxi:",
-    price: "289,000 UZS",
-    registerButton: "Ro'yxatdan o'tish"
-
+    "teacher": "👨🏻‍🏫 Teacher:",
+    "teacherName": "Tolibjon (IELTS 8)",
+    "courseDuration": "📅 Kurs davomiyligi:",
+    "courseDurationDetails": "Kurs Yanvar oyini birinchi 10 kunligida boshlanib, 1 oy davom etadi",
+    "coursePrice": "💰 Kurs narxi:",
+    "price": "289,000 UZS",
+    "registerButton": "Ro’yxatdan o’tish"
 };
 
 export default kursi;

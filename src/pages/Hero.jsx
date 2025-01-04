@@ -5,7 +5,7 @@ import Btn from '../Btn';
 const Hero = () => {
     const { t } = useTranslation("hero");
     return (
-        <section className='bg-oq  dark:bg-dakr  py-[30px] sm:py-16'>
+        <section id='home' className='bg-oq section dark:bg-dakr  py-[30px] sm:py-16'>
             <div className='container  flex lg:flex-row   flex-col items-center justify-between'>
                 <img data-aos="fade-up" src="https://raw.githubusercontent.com/kinddevs2024/Tolibs/refs/heads/main/public/man.png" alt="" className='  rounded     flex mb-10 lg:hidden lg:w-[100%] w-[100%]' />
 
@@ -14,8 +14,8 @@ const Hero = () => {
                         <span className='  sm:text-6xl text-3xl font-bold animate-text bg-gradient-to-r from-black dark:from-oq via-ornage dark:via-ornage dark:to-gren to-gren bg-clip-text text-transparent'>{t("English2")}</span>
                     </h1>
                     {/* <h1 data-aos="fade-up" className='sm:text-6xl text-3xl font-bold'>{t("English2")}</h1> */}
-                    <span data-aos="fade-up" className='sm:text-xl  text-lg bg-gradient-to-r from-ornage to-gren bg-clip-text text-transparent '>{t("Teach")}</span>
-                    <Btn data-aos="fade-up" className="animate-text bg-gradient-to-r from-gren via-ornage to-oq bg-clip-text text-transparent" text={t("Button")} />
+                    <span data-aos="fade-up" name="section2" className='sm:text-xl section text-lg bg-gradient-to-r from-ornage to-gren bg-clip-text text-transparent '>{t("Teach")}</span>
+                    <Btn data-aos="fade-up"  className="  animate-text bg-gradient-to-r from-gren via-ornage to-oq bg-clip-text text-transparent" text={t("Button")} />
                 </div>
                 <img data-aos="fade-up" src="https://raw.githubusercontent.com/kinddevs2024/Tolibs/refs/heads/main/public/man.png" alt="" className=' rounded-2xl hidden lg:flex lg:w-[50%] w-[100%]' />
             </div>

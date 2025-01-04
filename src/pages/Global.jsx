@@ -32,13 +32,13 @@ const Global = () => {
     ];
 
     return (
-        <section id='teacher' className=' py-10'>
-            <section className='container flex flex-col justify-center items-center gap-10'>
+        <section name="section2" className="py-10 section" id='teacher'>
+            <section name="section1" className=' section container flex flex-col justify-center items-center gap-10'>
                 <div className='flex flex-col justify-center text-center items-center gap-2 '>
                     <h1 data-aos="fade-up" className='text-[30px] font-bold'>{t("h1")}</h1>
                     <p data-aos="fade-up">{t("span")}</p>
                 </div>
-                <section className='flex flex-col md:flex-row gap-10 justify-center items-center '>
+                <section className=' section flex flex-col md:flex-row gap-10 justify-center items-center '>
                     <div className='flex flex-col gap-5 sm:gap-[100px] w-[350px]'>
                         {globalleft.map(({ h1, p }, index) => (
                             <div key={index} className='flex flex-col items-center md:items-end justify-center text-center md:justify-end md:text-end'>
@@ -49,15 +49,15 @@ const Global = () => {
                             </div>
                         ))}
                     </div>
-                    <div className='border-4  border-white rounded-lg shadow-lg shadow-green'>
-                        <img data-aos="fade-up" className='w-[300px] border-4 border-amber-400 rounded-lg' src="https://raw.githubusercontent.com/kinddevs2024/Tolibs/refs/heads/main/public/Business.png" alt="Mamura Yuldasheva" />
+                    <div data-aos="fade-up" className='border-4  border-white rounded-lg shadow-lg shadow-green'>
+                        <img className='w-[300px] section border-4 border-amber-400 rounded-lg' src="https://raw.githubusercontent.com/kinddevs2024/Tolibs/refs/heads/main/public/Business.png" alt="Mamura Yuldasheva" />
                     </div>
                     <div className='flex flex-col gap-5 sm:gap-[100px] w-[350px]'>
                         {globalright.map(({ h2, p2 }, index) => (
                             <div key={index} className='flex flex-col items-center md:items-start text-center md:text-start'>
                                 <h2 data-aos="fade-up" className='text-[20px] font-semibold text-gren'>{h2}</h2>
                                 <div className='w-[300px]'>
-                                    <p data-aos="fade-up" className='text-[10px]'>{p2}</p>
+                                    <p data-aos="fade-up" name="section3" className='text-[10px] section'>{p2}</p>
                                 </div>
                             </div>  
                         ))}

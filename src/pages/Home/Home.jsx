@@ -2,15 +2,13 @@ import React from 'react'
 import Resume from '../Resume'
 import Hero from '../Hero'
 import Global from '../Global'
-import Kursi from './Kursi/Kursi'
 import Kurslarimiz from './kurslarimiz/Kurslarimiz'
 import Savollar from './savollar/Savollar'
-import Map from './map/Map'
 
 const Home = () => {
   return (
     <main className='font-exo'>
-      <Hero />
+      <Hero/>
       <Resume />
       <Global />
       {/* <Kursi /> */}

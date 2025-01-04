@@ -24,7 +24,9 @@ import ensavollar from "./en/savollar";
 import enfooter from "./en/footer";
 import rufooter from "./ru/footer";
 import uzfooter from "./uz/footer";
-
+import uzkursi2 from "./uz/kursi2";
+import rukursi2 from "./ru/kursi2";
+import enkursi2 from "./en/kursi2";
 
 const resources = {
     en: {
@@ -36,6 +38,7 @@ const resources = {
         kursi: enkursi,
         savollar: ensavollar,
         footer: enfooter,
+        kursi2: enkursi2,
 
     },
     ru: {
@@ -47,6 +50,7 @@ const resources = {
         kursi: rukursi,
         savollar: rusavollar ,
         footer: rufooter,
+        kursi2: rukursi2,
 
 
     },
@@ -59,6 +63,7 @@ const resources = {
         kursi: uzkursi,
         savollar: uzsavollar,
         footer: uzfooter,
+        kursi2: uzkursi2,
 
     },
 };

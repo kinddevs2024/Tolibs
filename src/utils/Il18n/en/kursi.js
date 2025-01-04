@@ -1,39 +1,38 @@
 
 const kursi = {
-    title: "General English Booster",
-    subtitle: "Course for B1 Level (Pre-Intermediate/Intermediate)",
-    whoIsItFor: "Who is this course for:",
-    whoIsItForPoints: [
-        "Those who scored less than 47 on CEFR",
-        "Those struggling with IELTS & CEFR courses due to low level",
-        "Those who have completed Elementary",
-        "Those who achieved B2 a year or two ago but have forgotten English",
-        "Those struggling a lot with Speaking and Writing",
-        "Anyone aiming to reach B1+/B2 level"
+    "title": "General English Booster Course B1 Level",
+    "subtitle": "For Pre-Intermediate/Intermediate learners",
+    "whoIsItFor": "Who is it for?",
+    "whoIsItForPoints": [
+        "Those who scored below 47 on the CEFR test",
+        "Those who are struggling with IELTS & CEFR courses",
+        "Elementary learners who want to improve",
+        "Those who took B2 a year or two ago and forgot most of it",
+        "Those who struggle with Speaking and Writing",
+        "Those who want to reach B1+/B2 level"
     ],
-    whatWillYouLearn: "What will you learn:",
-    whatWillYouLearnPoints: [
+    "whatWillYouLearn": "What will you learn?",
+    "whatWillYouLearnPoints": [
         "Grammar & Vocabulary",
         "Speaking & Writing",
         "Reading & Listening"
     ],
-    courseStructure: "Course structure:",
-    courseStructurePoints: [
-        "3 live classes per week (20:00)",
-        "Daily video lessons provided",
-        "Join a 15-member homework group",
-        "Homework will be monitored",
-        "3 small group speaking sessions (3 people each) per week",
-        "Support teacher conducts 3 speaking lessons and checks homework",
-        "Guest speaker from Iran conducts a speaking session at the end"
+    "courseStructure": "Course Structure",
+    "courseStructurePoints": [
+        "3 live lessons per week (20:00)",
+        "Daily video lessons",
+        "Homework group of 15 people",
+        "Homework review and feedback",
+        "Speaking sessions in mini-groups of 3",
+        "Support teacher for 3 days of speaking lessons"
     ],
-    teacher: "Teacher:",
-    teacherName: "Tolibjon (IELTS 8)",
-    courseDuration: "Course duration:",
-    courseDurationDetails: "Starts in the first 10 days of January and lasts for 1 month",
-    coursePrice: "Course price:",
-    price: "289,000 UZS",
-    registerButton: "Register Now"
+    "teacher": "👨🏻‍🏫 Teacher",
+    "teacherName": "Tolibjon (IELTS 8)",
+    "courseDuration": "📅 Course Duration",
+    "courseDurationDetails": "The course will start within the first 10 days of January and lasts for 1 month.",
+    "coursePrice": "💰 Course Price",
+    "price": "289,000 UZS",
+    "registerButton": "Register Now"
 };
 
 export default kursi;
