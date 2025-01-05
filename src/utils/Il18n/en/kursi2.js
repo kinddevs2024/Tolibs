@@ -2,21 +2,21 @@
 const kursi = {
     "title": "General English Booster” course for A1/A2",
     "subtitle": "levels (beginner/elementary)",
-    "whoIsItFor": "Who is this course for:",
+    "whoIsItFor": "Who is this course for",
     "whoIsItForPoints": [
         "Those who are just starting to learn English (beginner)",
         "Those with a very limited vocabulary",
         "Those who want to reach A1/A2 level"
     ],
-    "whatWillYouLearn": "What will you learn in the course:",
+    "whatWillYouLearn": "What will you learn in the course",
     "whatWillYouLearnPoints": [
         "Grammar & Vocabulary",
         "Speaking & Writing",
         "Reading & Listening"
     ],
-    "courseStructure": "Course structure:",
+    "courseStructure": "Course structure",
     "courseStructurePoints": [
-        "3 live lessons per week (8:00 PM)",
+        "6 live lessons per week",
         "Daily video lessons",
         "Join a homework group of 15 people",
         "Homework supervision",
@@ -29,7 +29,8 @@ const kursi = {
     "courseDuration": "📅 Course duration:",
     "courseDurationDetails": "The course starts in the first 10 days of January and lasts for 1 month",
     "coursePrice": "💰 Course price:",
-    "price": "289,000 UZS",
+    "price1": "350,000 UZS",
+    "price2": "289,000 UZS",
     "registerButton": "Register"
 }
 ;

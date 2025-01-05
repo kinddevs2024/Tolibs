@@ -71,7 +71,10 @@ const Ku = () => {
                     {t('coursePrice')}
                 </Typography>
                 <Typography data-aos="fade-up" variant="h4" className="text-gren dark:text-ornage font-bold">
-                    {t('price')}
+                    <s>
+                    {t('price1')}
+                    </s> /&nbsp;
+                     {t('price2')}
                 </Typography>
             </section>
 

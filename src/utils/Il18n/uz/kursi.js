@@ -2,7 +2,7 @@
 const kursi = {
     "title": "General English Booster kursi B1 daraja",
     "subtitle": "Pre-Intermediate/Intermediate darajadagi o'quvchilar uchun",
-    "whoIsItFor": "Kimlar uchun?",
+    "whoIsItFor": "Kurs kimlar uchun",
     "whoIsItForPoints": [
         "CEFR testidan 47 dan kam ball olganlar",
         "IELTS va CEFR kurslarida darajasi past bo'lganlar",
@@ -11,7 +11,7 @@ const kursi = {
         "Speaking va Writingda qiynalganlar",
         "Umuman olganda B1+/B2 darajasiga chiqishni istaganlar"
     ],
-    "whatWillYouLearn": "Nimalar o'rgatiladi?",
+    "whatWillYouLearn": "Kursda nimalar o'rgatiladi",
     "whatWillYouLearnPoints": [
         "Grammatik va Lug'at boyligi",
         "Speaking va Writing",
@@ -19,7 +19,7 @@ const kursi = {
     ],
     "courseStructure": "Kurs strukturası",
     "courseStructurePoints": [
-        "Haftada 3 jonli dars (20:00)",
+        "Haftada 6 jonli dars",
         "Har kuni video-darslar",
         "15 kishilik Homework guruhi",
         "Uy ishlari ustidan nazorat",
@@ -31,7 +31,8 @@ const kursi = {
     "courseDuration": "📅 Kurs davomiyligi:",
     "courseDurationDetails": "Kurs Yanvar oyini birinchi 10 kunligida boshlanib, 1 oy davom etadi",
     "coursePrice": "💰 Kurs narxi:",
-    "price": "289,000 UZS",
+    "price1": "400,000 UZS",
+    "price2": "289,000 UZS",
     "registerButton": "Ro’yxatdan o’tish"
 };
 
