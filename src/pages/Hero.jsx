@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
     const { t } = useTranslation("hero");
     return (
-        <section id='home' className='bg-oq section dark:bg-dakr  py-[30px] sm:py-16'>
-            <div className='container  flex lg:flex-row   flex-col items-center justify-between'>
+        <section name="section1" id='home' className='bg-oq section dark:bg-dakr  py-[30px] sm:py-16'>
+            <div className='container m  flex lg:flex-row   flex-col items-center justify-between'>
                 <img data-aos="fade-up" src="https://raw.githubusercontent.com/kinddevs2024/Tolibs/refs/heads/main/public/man.png" alt="" className='  rounded     flex mb-10 lg:hidden lg:w-[100%] w-[100%]' />
 
                 <div  className='flex flex-col lg:items-start items-center lg:text-start text-center gap-[20px] sm:gap-14'>

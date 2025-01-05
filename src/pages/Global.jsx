@@ -14,32 +14,26 @@ const Global = () => {
             h1: t("d1parag1"),
             p: t("d1parag2"),
         },
-        {
-            h1: t("d2parag1"),
-            p: t("d2parag2"),
-        },
+
     ];
 
     const globalright = [
         {
-            h2: t("d3parag1"),
-            p2: t("d3parag2"),
+            h2: t("d2parag1"),
+            p2: t("d2parag2"),
         },
-        {
-            h2: t("d4parag1"),
-            p2: t("d4parag2"),
-        },
+
     ];
 
     return (
         <section name="section2" className="py-10 section" id='teacher'>
-            <section name="section1" className=' section container flex flex-col justify-center items-center gap-10'>
+            <section className=' section container flex flex-col justify-center items-center gap-10'>
                 <div className='flex flex-col justify-center text-center items-center gap-2 '>
                     <h1 data-aos="fade-up" className='text-[30px] font-bold'>{t("h1")}</h1>
                     <p data-aos="fade-up">{t("span")}</p>
                 </div>
-                <section className=' section flex flex-col md:flex-row gap-10 justify-center items-center '>
-                    <div className='flex flex-col gap-5 sm:gap-[100px] w-[350px]'>
+                <section className=' section flex flex-col md:flex-row gap-10 justify-center items-center    '>
+                    <div className='flex flex-col gap-5  sm:gap-[100px] w-[350px]'>
                         {globalleft.map(({ h1, p }, index) => (
                             <div key={index} className='flex flex-col items-center md:items-end justify-center text-center md:justify-end md:text-end'>
                                 <h1 data-aos="fade-up" className='text-[20px] font-bold text-gren'>{h1}</h1>
