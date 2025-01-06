@@ -27,12 +27,11 @@ const kursi = {
     "teacher": "👨🏻‍🏫 Teacher:",
     "teacherName": "Tolibjon (IELTS 8)",
     "courseDuration": "📅 Course duration:",
-    "courseDurationDetails": "The course starts in the first 10 days of January and lasts for 1 month",
+    "courseDurationDetails": "The course starts in the first 10 days of January",
     "coursePrice": "💰 Course price:",
     "price1": "350,000 UZS",
     "price2": "289,000 UZS",
     "registerButton": "Register"
-}
-;
+};
 
 export default kursi;

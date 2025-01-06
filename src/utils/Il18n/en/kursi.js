@@ -29,7 +29,7 @@ const kursi = {
     "teacher": "👨🏻‍🏫 Teacher",
     "teacherName": "Tolibjon (IELTS 8)",
     "courseDuration": "📅 Course Duration",
-    "courseDurationDetails": "The course will start within the first 10 days of January and lasts for 1 month.",
+    "courseDurationDetails": "The course will start within the first 10 days of January",
     "coursePrice": "💰 Course Price",
     "price1": "400,000 UZS",
     "price2": "289,000 UZS",

@@ -16,7 +16,7 @@ const kursi = {
     ],
     "courseStructure": "Kurs strukturası",
     "courseStructurePoints": [
-        "Haftada 6 jonli dars",
+        "Haftada 6 kunlik jonli darslar",
         "Har kuni video-darslar beriladi",
         "15 kishilik Homework guruhga qo'shilasiz",
         "Uy ishi ustidan nazorat qilinadi",
@@ -27,7 +27,7 @@ const kursi = {
     "teacher": "👨🏻‍🏫 Teacher:",
     "teacherName": "Tolibjon (IELTS 8)",
     "courseDuration": "📅 Kurs davomiyligi:",
-    "courseDurationDetails": "Kurs Yanvar oyini birinchi 10 kunligida boshlanib, 1 oy davom etadi",
+    "courseDurationDetails": "Kurs Yanvar oyini birinchi 10 kunligida boshlanadi",
     "coursePrice": "💰 Kurs narxi:",
     "price1": "350,000 UZS",
     "price2": "289,000 UZS",
