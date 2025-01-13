@@ -18,7 +18,7 @@ const Kurslarimiz = () => {
                         {t("English4")}
                     </h4>
                 </div>
-                <div className='flex mt-10 flex-wrap flex-row items-start justify-center '>
+                <div className='flex mt-10 gap-10 flex-wrap flex-row items-start justify-center '>
                     <Ku />
                     <Ku2 />
 

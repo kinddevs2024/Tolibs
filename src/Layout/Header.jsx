@@ -54,7 +54,10 @@ const Header = () => {
                     <div className='md:flex hidden '>
                         <MenuDefault />
                     </div>
+                    <span>
+
                     <a className='ml-4' href="tel:+998770520952"><Button /></a>
+                    </span>
                     <div className='lg:hidden flex items-center gap-2'>
                         <DrawerDefault />
 
